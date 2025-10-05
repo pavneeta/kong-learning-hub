@@ -63,7 +63,7 @@ flowchart TD
     %% Configuration flow
     subgraph Config["Configuration Management"]
         DecK[decK CLI Tool<br/>Declarative Config]
-        ConfigFiles[YAML Config Files<br/>_format_version: "3.0"]
+        ConfigFiles["YAML Config Files<br/>format_version: 3.0"]
     end
     
     DecK -->|Deploy Configuration| Kong
